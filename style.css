@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+h1 {
+  font-family: 'Poppins';
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size:larger;
+  font-weight: lighter;
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin-left: auto;/* This automatically sets left/right margins */
+  margin-right: auto;
+  text-align: center;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
+  width: 438px;
+  /* margin: 0 auto; */
+  text-align: center;
+  display: inline-block;     /* Set automatic margins on right/left */
+
+}
+
+.card-links {
+    background: white;
+    list-style: none;
+    padding: 29px;
+    border-radius: 4px;
+    box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
+    /* margin: 0 auto; */
+    margin: 0;
+    margin-top: 10px;
+    width: 438px;
+    background-color: white;
+
+}
+
+
+.ul {
+  display: inline-flex;
+  padding: 0 20px;
+  list-style: none;
+
+}
+
+.li{
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+#fotoperfil{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  border: 1px solid black;
+  box-shadow: 1px 1px 2px grey;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+a {
+  color:orange;
+  text-decoration: none;
+}
+
+a:hover {
+  color:orangered;
+  text-decoration: none;
+}
